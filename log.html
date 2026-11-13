@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Log - DailyFit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/JPG" href="logo.jpg">
+</head>
+
+<body>
+
+    <header>
+        
+        <h1>DailyFit</h1>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="planner.html">Workout Planner</a>
+            <a href="exercises.html">Exercises</a>
+            <a href="log.html">Exercise Log</a>
+            <a href="goals.html">Fitness Goals</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Exercise Log</h2>
+        <p>Record your daily workout activities.</p>
+        <br>
+
+        
+        <section class="form-container">
+            <form>
+                <label for="exercise">Exercise Name</label>
+                <input type="text" id="exercise" name="exercise" placeholder="Enter exercise name">
+
+                <label for="date">Workout Date</label>
+                <input type="date" id="date" name="date">
+
+                <label for="sets">Number of Sets</label>
+                <input type="number" id="sets" name="sets" placeholder="Enter sets">
+
+                <label for="reps">Number of Repetitions</label>
+                <input type="number" id="reps" name="reps" placeholder="Enter reps">
+
+                <label for="weight">Weight Lifted (kg)</label>
+                <input type="number" id="weight" name="weight" placeholder="Enter weight">
+
+                <button type="submit">Add Exercise</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Previous Records</h2>
+
+            <table>
+                <tr>
+                    <th>Exercise</th>
+                    <th>Sets</th>
+                    <th>Reps</th>
+                    <th>Weight</th>
+                </tr>
+
+                <tr>
+                    <td>Bench Press</td>
+                    <td>3</td>
+                    <td>12-15</td>
+                    <td>35 kg</td>
+                </tr>
+
+                <tr>
+                    <td>Bicep Curl</td>
+                    <td>3</td>
+                    <td>10-15</td>
+                    <td>15 kg</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 DailyFit</p>
+    </footer>
+
+</body>
+</html>
